@@ -21,20 +21,20 @@ body,
   width: 100%;
 }
 
-.custom-font{
-  font-family:"Montserrat", sans-serif
+.custom-font {
+  font-family: "Montserrat", sans-serif;
 }
 
-.custom-before-2::before{
+.custom-before-2::before {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: url('./assets//AbstractWaves.png');
+  background-image: url("./assets//AbstractWaves.png");
 }
 
-@media screen and (min-width:768px) and (max-width:1100px) {
-  .custom-before::before{
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .custom-before::before {
     display: none;
   }
 }
